@@ -3,7 +3,7 @@ import sys
 import os
 import matplotlib.pyplot as plt
 import xlwings as xw
-
+import time
 
 sht = xw.Book.caller().sheets[0]
 gridVaryOpt={ }
